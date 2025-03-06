@@ -1,8 +1,6 @@
 ﻿using System;
 using System.IO;
 using System.Xml.Serialization;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 
 namespace RainbowMage.OverlayPlugin.Overlays
 {

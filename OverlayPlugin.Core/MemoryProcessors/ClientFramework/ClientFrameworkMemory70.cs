@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.InteropServices;
 using RainbowMage.OverlayPlugin.MemoryProcessors.FFXIVClientStructs;
 
 namespace RainbowMage.OverlayPlugin.MemoryProcessors.ClientFramework

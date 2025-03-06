@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using CefSharp;
+﻿using CefSharp;
 using CefSharp.Handler;
 
 namespace RainbowMage.HtmlRenderer
 {
     class CustomRequestHandler : RequestHandler
     {
-        Renderer _renderer;
+        readonly Renderer _renderer;
 
         public CustomRequestHandler(Renderer renderer) : base()
         {

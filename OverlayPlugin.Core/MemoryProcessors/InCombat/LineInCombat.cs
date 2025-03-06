@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Threading;
-using System.Threading.Tasks;
-using Newtonsoft.Json.Linq;
-using RainbowMage.OverlayPlugin.MemoryProcessors.InCombat;
-using static RainbowMage.OverlayPlugin.EventSources.EnmityEventSource;
 
 namespace RainbowMage.OverlayPlugin.MemoryProcessors.InCombat
 {

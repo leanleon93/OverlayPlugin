@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Reflection;
 using System.Runtime.InteropServices;
-using FFXIVClientStructs.Global.FFXIV.Client.Game.Group;
 using RainbowMage.OverlayPlugin.MemoryProcessors.FFXIVClientStructs;
 
 namespace RainbowMage.OverlayPlugin.MemoryProcessors.Party

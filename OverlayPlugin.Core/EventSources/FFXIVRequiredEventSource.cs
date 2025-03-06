@@ -1,16 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
-using System.IO;
 using System.Linq;
 // For some reason this using is required by the github build?
-using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Advanced_Combat_Tracker;
 using FFXIV_ACT_Plugin.Common;
 using Newtonsoft.Json.Linq;
 using RainbowMage.OverlayPlugin.MemoryProcessors.Combatant;

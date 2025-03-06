@@ -111,9 +111,12 @@
     <ProjectReference Include="..\OverlayPlugin.Common\OverlayPlugin.Common.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Markdig.Signed" Version="0.18.3" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="SharpCompress" Version="0.24.0" />
+    <PackageReference Include="Markdig.Signed" Version="0.40.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SharpCompress" Version="0.39.0" />
     <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="System.Resources.Extensions" Version="9.0.2" />
   </ItemGroup>
 </Project>

@@ -34,4 +34,7 @@ xcopy /Y /R "$(SolutionDir)LICENSE.txt" "$(MSBuildProjectDirectory)\$(OutputPath
     <ProjectReference Include="..\OverlayPlugin.Core\OverlayPlugin.Core.csproj" />
     <ProjectReference Include="..\OverlayPlugin.Updater\OverlayPlugin.Updater.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="System.Resources.Extensions" Version="9.0.2" />
+  </ItemGroup>
 </Project>

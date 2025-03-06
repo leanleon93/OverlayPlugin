@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Runtime.InteropServices;
-using System.Threading;
-using System.Threading.Tasks;
-using FFXIVClientStructs.Global.FFXIV.Client.Game.Gauge;
 #if !DEBUG
 using Newtonsoft.Json;
 #endif
@@ -62,7 +58,7 @@ namespace RainbowMage.OverlayPlugin.MemoryProcessors.JobGauge
         IBaseJobGauge Data { get; }
         int[] RawData { get; }
 #if !DEBUG
-            [JsonIgnore]
+        [JsonIgnore]
 #endif
         object BaseObject { get; }
     }

@@ -1,20 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
-using System.Drawing;
-using System.Drawing.Imaging;
-using System.Linq;
 using System.Security.Permissions;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using CefSharp;
-using CefSharp.Enums;
 using CefSharp.Structs;
-using RainbowMage.HtmlRenderer;
 using Point = System.Drawing.Point;
 
 namespace RainbowMage.HtmlRenderer

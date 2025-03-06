@@ -1,14 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Advanced_Combat_Tracker;
-using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
 namespace RainbowMage.OverlayPlugin.Overlays

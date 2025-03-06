@@ -4,7 +4,6 @@ using System.Drawing;
 using System.Runtime.Serialization;
 using System.Windows.Forms;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 
 namespace RainbowMage.OverlayPlugin
 {
