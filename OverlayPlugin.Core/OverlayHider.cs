@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using RainbowMage.OverlayPlugin.MemoryProcessors.InCombat;
 using RainbowMage.OverlayPlugin.NetworkProcessors;
@@ -116,7 +112,7 @@ namespace RainbowMage.OverlayPlugin
                     {
                         var exePath = Process.GetProcessById((int)pid).MainModule.FileName;
                         var fileName = Path.GetFileName(exePath.ToString());
-                        gameActive = (fileName == "ffxiv.exe" || fileName == "ffxiv_dx11.exe" ||
+                        gameActive = (fileName.Equals("BNSR.exe", StringComparison.OrdinalIgnoreCase) ||
                                         exePath.ToString() == Process.GetCurrentProcess().MainModule.FileName);
                     }
                 }
